@@ -37,7 +37,7 @@ export default function Hero() {
         {/* ── Supplied Tagline ──────────────────────── */}
         <div className={`hero__tagline-group ${m3 ? 'hero__tagline-group--visible' : ''}`}>
           <p className="hero__tagline-lead">{config.taglineLead}</p>
-          <p className="hero__tagline-body">{config.taglineBody}</p>
+          {config.taglineBody && <p className="hero__tagline-body">{config.taglineBody}</p>}
         </div>
 
         {/* ── First-Screen Social Actions ──────────── */}

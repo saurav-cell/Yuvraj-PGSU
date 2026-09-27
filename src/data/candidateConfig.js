@@ -1,6 +1,6 @@
 /**
  * ============================================================
- * CANDIDATE CONFIGURATION — VRISHANK JYOTI DUTTA
+ * CANDIDATE CONFIGURATION — YUVRAJ BHATTACHARJYA
  * ============================================================
  * Source of truth for candidate content, images, and links.
  * ============================================================
@@ -8,91 +8,73 @@
 
 const candidateConfig = {
   /* ── Identity ─────────────────────────────────── */
-  candidateName: 'Vrishank Jyoti Dutta',
-  candidateFirstName: 'Vrishank',
-  candidateLastName: 'Jyoti Dutta',
-  candidatePosition: 'AGS (UG)',
+  candidateName: 'Yuvraj Bhattacharjya',
+  candidateFirstName: 'Yuvraj',
+  candidateLastName: 'Bhattacharjya',
+  candidatePosition: 'President',
   university: 'Gauhati University',
   electionYear: '2026–2027',
   electionBadge: 'GUPGSU • ELECTION 2026–2027',
   footerBadge: 'EXPLORE • CONNECT • ENGAGE',
 
   /* ── Tagline ───────────────────────────────────── */
-  taglineLead: 'Leadership isn’t about standing ahead of students. It’s about standing beside them.',
-  taglineBody: 'Vrishank believes in listening to students, understanding their concerns, and turning their voices into action.',
+  taglineLead: 'Real change begins with understanding the people around us — and Yuvraj Bhattacharjya wants to be someone students can always reach out to.',
+  taglineBody: '',
 
   /* ── Monologue / Message ──────────────────────── */
   monologue: [
-    'What if leadership wasn’t about being ahead of you — but being there when you need it?',
-    'I’m Vrishank Jyoti Dutta, candidate for AGS (UG).',
-    'For me, representation starts with listening. Understanding the concerns students face. And turning those concerns into meaningful action.',
-    'Because your voice deserves more than to be heard once. It deserves to be represented.',
+    'A university is more than classrooms — it’s the people who make it home.',
+    'I’m Yuvraj Bhattacharjya, candidate for President.',
+    'Leadership, to me, is simple: listen, understand, and be there when it matters.',
+    'Because every student matters, every voice deserves to be heard, and together, we can make our campus better.',
   ],
 
   /* ── Social / Community Links ─────────────────── */
-  whatsappUrl: 'https://chat.whatsapp.com/KXOtkwdqwiCBWR5d81sa6C',
-  instagramUrl: 'https://www.instagram.com/vrishankjyotidutta?stkn=cmpueTlhaWNxdXBx',
-  facebookUrl: 'https://www.facebook.com/profile.php?id=61577413324361',
+  whatsappUrl: 'https://chat.whatsapp.com/I6lU4VKGpse4sS8aPaSczm',
+  instagramUrl: 'https://www.instagram.com/yuvraj_bhattacharjya?stkn=ejdhZDdrMWkwanV1',
+  facebookUrl: 'https://www.facebook.com/yuvraj.bhattacharjya',
 
   /* ── Main Hero / Anchor Photograph ─────────────── */
-  heroImage: '/images/vrishank_hero.jpg',
+  heroImage: '/images/yuvraj_hero.png',
 
-  /* ── Visual Story Intro & Cards (9 Total) ─────── */
+  /* ── Visual Story Intro & Cards (6 Total) ─────── */
   visualStorySubtitle: 'Swipe through moments that reflect the journey, the people, and the values that shape his story.',
   visualStories: [
     {
       id: 1,
-      image: '/images/vrishank_story_01.jpg',
-      title: 'Serving With Purpose',
-      message: 'True leadership isn\'t found in titles—it’s found in serving the people who need us most.',
+      image: '/images/yuvraj_story_01.png',
+      title: 'Night crowd / interaction',
+      message: 'Every conversation matters when you take the time to listen.',
     },
     {
       id: 2,
-      image: '/images/vrishank_story_02.jpg',
-      title: 'Standing Shoulder to Shoulder',
-      message: 'Standing shoulder to shoulder with students to demand equal rights and accountability.',
+      image: '/images/yuvraj_story_02.png',
+      title: 'Media / speaking',
+      message: 'Speaking up is meaningful when it carries the voices and concerns of the people around us.',
     },
     {
       id: 3,
-      image: '/images/vrishank_story_03.jpg',
-      title: 'Humility & Blessings',
-      message: 'Seeking blessings to serve our campus community with humility, honesty, and vision.',
+      image: '/images/yuvraj_story_03.png',
+      title: 'Indoor conversation',
+      message: 'Good leadership begins with open conversations and an understanding of different perspectives.',
     },
     {
       id: 4,
-      image: '/images/vrishank_story_04.jpg',
-      title: 'Leadership in Action',
-      message: 'Leadership begins with action — with the willingness to step forward, get your hands dirty, and contribute to something that lasts.',
+      image: '/images/yuvraj_story_04.jpg',
+      title: 'Cultural artwork',
+      message: 'Rooted in our culture, connected to the people, and looking ahead together.',
     },
     {
       id: 5,
-      image: '/images/vrishank_story_05.jpg',
-      title: 'Responsibility & Milestones',
-      message: 'Every achievement is a reminder of the people, experiences, and responsibilities that shape the journey forward.',
+      image: '/images/yuvraj_story_05.png',
+      title: 'Planting sapling',
+      message: 'Small actions today can become something meaningful for the future.',
     },
     {
       id: 6,
-      image: '/images/vrishank_story_06.jpg',
-      title: 'Standing With People',
-      message: 'In the middle of the crowd, leadership means being present, listening, and standing with people.',
-    },
-    {
-      id: 7,
-      image: '/images/vrishank_story_07.jpg',
-      title: 'Voice of the Students',
-      message: 'When students speak up, their concerns deserve to be heard and represented.',
-    },
-    {
-      id: 8,
-      image: '/images/vrishank_story_08.jpg',
-      title: 'Action on the Ground',
-      message: 'Real work begins on the ground — showing up, working together, and contributing where it matters.',
-    },
-    {
-      id: 9,
-      image: '/images/vrishank_story_09.jpg',
-      title: 'Purpose & Voice',
-      message: 'Finding the courage to speak, the responsibility to listen, and the purpose to make every voice count.',
+      image: '/images/yuvraj_story_06.png',
+      title: 'Temple / prayer',
+      message: 'A quiet moment of gratitude, reflection, and seeking blessings for the journey ahead.',
     },
   ],
 
@@ -114,8 +96,8 @@ const candidateConfig = {
   },
 
   /* ── Closing Statement ────────────────────────── */
-  closingTitle: 'Vote for Vrishank Jyoti Dutta',
-  closingLine: 'Because your voice deserves more than to be heard once. It deserves to be represented.',
+  closingTitle: 'Vote for Yuvraj Bhattacharjya',
+  closingLine: 'Because every student matters, every voice deserves to be heard, and together, we can make our campus better.',
 };
 
 export default candidateConfig;
