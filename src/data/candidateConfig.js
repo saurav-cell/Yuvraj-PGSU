@@ -11,7 +11,7 @@ const candidateConfig = {
   candidateName: 'Yuvraj Bhattacharjya',
   candidateFirstName: 'Yuvraj',
   candidateLastName: 'Bhattacharjya',
-  candidatePosition: 'President',
+  candidatePosition: 'For President',
   university: 'Gauhati University',
   electionYear: '2026–2027',
   electionBadge: 'GUPGSU • ELECTION 2026–2027',
